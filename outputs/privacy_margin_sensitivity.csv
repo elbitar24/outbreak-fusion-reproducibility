@@ -1,0 +1,7 @@
+absolute_score_to_threshold_margin,scenario,analytic_single_release_flip_probability,monte_carlo_flip_probability,mc_replicates,evidence_type
+0.0,unfavorable_near_threshold,0.5,0.50041,200000,simulation/analytical sensitivity; not observed daily margins
+0.001,unfavorable_near_threshold,0.3032653298563167,0.304065,200000,simulation/analytical sensitivity; not observed daily margins
+0.002,unfavorable_near_threshold,0.18393972058572117,0.18425,200000,simulation/analytical sensitivity; not observed daily margins
+0.005,intermediate,0.0410424993119494,0.040735,200000,simulation/analytical sensitivity; not observed daily margins
+0.01,favorable_well_separated,0.0033689734995427335,0.0032,200000,simulation/analytical sensitivity; not observed daily margins
+0.02,favorable_well_separated,2.2699964881242427e-05,3e-05,200000,simulation/analytical sensitivity; not observed daily margins
