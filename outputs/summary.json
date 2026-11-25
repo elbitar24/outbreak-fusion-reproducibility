@@ -1,0 +1,48 @@
+{
+  "random_seed": 20261125,
+  "social": {
+    "N": 20000,
+    "counts": {"TP": 346, "FP": 3, "FN": 68, "TN": 19583},
+    "point_estimates": {
+      "precision": 0.9914040114613181,
+      "recall": 0.8357487922705314,
+      "f1": 0.90694626474443,
+      "accuracy": 0.99645,
+      "specificity": 0.9998468293679159,
+      "prevalence": 0.0207
+    },
+    "parametric_bootstrap_replicates": 100000,
+    "f1_bootstrap_95_CI": [0.8844621513944224, 0.9276485788113695],
+    "precision_wilson_95_CI": [0.9750356195712673, 0.9970723666795906],
+    "recall_wilson_95_CI": [0.7970031764717119, 0.8683209413997427],
+    "accuracy_wilson_95_CI": [0.9955249668427258, 0.9971843605571676]
+  },
+  "benchmark_sensitivity": [
+    {"reference":"principal_26_Feb_2020","reference_date":"2020-02-26","stage":"early_pressure","warning_date":"2019-12-09","lead_days_positive_before_reference":79,"interpretation":"79 days before reference","evidence_type":"exact reanalysis of archived dates"},
+    {"reference":"principal_26_Feb_2020","reference_date":"2020-02-26","stage":"confirmation","warning_date":"2020-02-02","lead_days_positive_before_reference":24,"interpretation":"24 days before reference","evidence_type":"exact reanalysis of archived dates"},
+    {"reference":"alternative_30_Jan_2020","reference_date":"2020-01-30","stage":"early_pressure","warning_date":"2019-12-09","lead_days_positive_before_reference":52,"interpretation":"52 days before reference","evidence_type":"exact reanalysis of archived dates"},
+    {"reference":"alternative_30_Jan_2020","reference_date":"2020-01-30","stage":"confirmation","warning_date":"2020-02-02","lead_days_positive_before_reference":-3,"interpretation":"3 days after reference","evidence_type":"exact reanalysis of archived dates"}
+  ],
+  "alert_burden": {
+    "early_pressure_days": 65,
+    "confirmation_days": 10,
+    "absolute_reduction_days": 55,
+    "relative_reduction": 0.8461538461538461,
+    "confirmation_to_early_ratio": 0.15384615384615385,
+    "evidence_type": "archived empirical server summary; descriptive only because days are serially dependent"
+  },
+  "privacy_margin_sensitivity": [
+    {"absolute_score_to_threshold_margin":0.0,"scenario":"unfavorable_near_threshold","analytic_single_release_flip_probability":0.5,"monte_carlo_flip_probability":0.50041,"mc_replicates":200000,"evidence_type":"simulation/analytical sensitivity; not observed daily margins"},
+    {"absolute_score_to_threshold_margin":0.001,"scenario":"unfavorable_near_threshold","analytic_single_release_flip_probability":0.3032653298563167,"monte_carlo_flip_probability":0.304065,"mc_replicates":200000,"evidence_type":"simulation/analytical sensitivity; not observed daily margins"},
+    {"absolute_score_to_threshold_margin":0.002,"scenario":"unfavorable_near_threshold","analytic_single_release_flip_probability":0.18393972058572117,"monte_carlo_flip_probability":0.18425,"mc_replicates":200000,"evidence_type":"simulation/analytical sensitivity; not observed daily margins"},
+    {"absolute_score_to_threshold_margin":0.005,"scenario":"intermediate","analytic_single_release_flip_probability":0.0410424993119494,"monte_carlo_flip_probability":0.040735,"mc_replicates":200000,"evidence_type":"simulation/analytical sensitivity; not observed daily margins"},
+    {"absolute_score_to_threshold_margin":0.01,"scenario":"favorable_well_separated","analytic_single_release_flip_probability":0.0033689734995427335,"monte_carlo_flip_probability":0.0032,"mc_replicates":200000,"evidence_type":"simulation/analytical sensitivity; not observed daily margins"},
+    {"absolute_score_to_threshold_margin":0.02,"scenario":"favorable_well_separated","analytic_single_release_flip_probability":0.000022699964881242427,"monte_carlo_flip_probability":0.00003,"mc_replicates":200000,"evidence_type":"simulation/analytical sensitivity; not observed daily margins"}
+  ],
+  "interpretation_limits": [
+    "The multinomial bootstrap quantifies sampling uncertainty conditional on the reported weak-label confusion matrix; it does not address weak-label construct validity.",
+    "Benchmark sensitivity changes the operational reference date, not the underlying warning trajectory.",
+    "Archived pre-target alert days are serially dependent and are therefore reported descriptively without an independence-based p-value.",
+    "Laplace margin analysis is a scenario/simulation sensitivity analysis; actual day-specific margins were unavailable and no empirical daily flip rate is inferred."
+  ]
+}
