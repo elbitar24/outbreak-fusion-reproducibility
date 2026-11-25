@@ -1,0 +1,2 @@
+early_pressure_days,confirmation_days,absolute_reduction_days,relative_reduction,confirmation_to_early_ratio,evidence_type
+65,10,55,0.8461538461538461,0.15384615384615385,archived empirical server summary; descriptive only because days are serially dependent
