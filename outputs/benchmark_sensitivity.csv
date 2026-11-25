@@ -1,0 +1,5 @@
+reference,reference_date,stage,warning_date,lead_days_positive_before_reference,interpretation,evidence_type
+principal_26_Feb_2020,2020-02-26,early_pressure,2019-12-09,79,79 days before reference,exact reanalysis of archived dates
+principal_26_Feb_2020,2020-02-26,confirmation,2020-02-02,24,24 days before reference,exact reanalysis of archived dates
+alternative_30_Jan_2020,2020-01-30,early_pressure,2019-12-09,52,52 days before reference,exact reanalysis of archived dates
+alternative_30_Jan_2020,2020-01-30,confirmation,2020-02-02,-3,3 days after reference,exact reanalysis of archived dates
