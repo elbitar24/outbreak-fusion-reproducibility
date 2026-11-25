@@ -4,6 +4,13 @@ Public repository: https://github.com/elbitar24/outbreak-fusion-reproducibility
 
 This package reproduces the **supplementary uncertainty and robustness analysis** added during final manuscript revision. It does not claim to reconstruct unavailable raw observations or rerun the original source-model training.
 
+## Authors
+
+- Ibrahim El Bitar
+- Malek W. Srouji
+- Mohammad F. Hajj
+- Majd Ghareeb
+
 ## Why uncertainty analysis was selected
 
 An independent negative-control outbreak cohort was not available in the archived experimental package. Treating the 178 pre-event days inside the same COVID-19 episode as an independent negative-control cohort would overstate evidentiary independence. The lower-cost and more defensible reviewer response is therefore stronger uncertainty analysis using reported empirical counts, exact archived dates, archived alert-burden summaries, and clearly labeled simulations.
