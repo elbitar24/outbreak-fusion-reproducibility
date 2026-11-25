@@ -1,0 +1,31 @@
+{
+  "provenance_note": "These are reported empirical/archived quantities transcribed from the revised manuscript and archived master thesis. They are not regenerated raw observations.",
+  "social_test_confusion_matrix": {
+    "N": 20000,
+    "TP": 346,
+    "FP": 3,
+    "FN": 68,
+    "TN": 19583,
+    "target_prevalence_reported": 0.0207,
+    "reported_roc_auc": 0.9951,
+    "reported_pr_auc": 0.9247
+  },
+  "server_warning_dates": {
+    "early_pressure": "2019-12-09",
+    "confirmation": "2020-02-02"
+  },
+  "archived_pre_target_persistent_alert_days": {
+    "early_pressure": 65,
+    "confirmation": 10,
+    "source": "Archived master thesis Chapter 7, Table 7-9 / critical evaluation"
+  },
+  "privacy_utility": {
+    "epsilon": 10.0,
+    "configured_delta": 0.02,
+    "laplace_scale": 0.002,
+    "mean_absolute_score_difference": 0.001754,
+    "maximum_absolute_score_difference": 0.009493,
+    "correlation": 0.999958,
+    "warning_dates_unchanged": true
+  }
+}
