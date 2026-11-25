@@ -1,0 +1,13 @@
+{
+  "analysis_version": "1.0.0",
+  "random_seed": 20261125,
+  "bootstrap_replicates": 100000,
+  "laplace_mc_replicates_per_margin": 200000,
+  "confidence_level": 0.95,
+  "laplace_scale": 0.002,
+  "privacy_epsilon": 10.0,
+  "configured_delta": 0.02,
+  "analysis_window_days": 243,
+  "principal_surveillance_milestone": "2020-02-26",
+  "alternative_surveillance_milestone": "2020-01-30"
+}
