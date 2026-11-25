@@ -1,0 +1,10 @@
+# Final methodological gap-closure assessment
+
+| Weakness | Implemented solution | Supporting evidence | Remaining limitation | Status |
+|---|---|---|---|---|
+| Uncertainty around social-classifier threshold metrics | Wilson 95% CIs plus 100,000-replicate parametric multinomial bootstrap | Exact reported confusion counts, N=20,000 | Conditional on weak-label target; does not resolve construct validity | Fully addressed for count-based sampling uncertainty |
+| Lack of robustness to operational milestone choice | Exact benchmark sensitivity using 26 Feb and 30 Jan 2020 milestones | Archived warning dates | Only two operational references; neither is biological onset | Fully addressed for declared references |
+| Incomplete warning-burden reporting | Recovered archived pre-target persistent-alert-day burden and computed absolute/relative reduction | 65 early-pressure vs 10 confirmation days; 55-day / 84.6% reduction | Serial dependence; no independence-based significance test | Partially addressed |
+| Privacy decision sensitivity at epsilon=10 | Analytical and Monte Carlo Laplace threshold-crossing sensitivity by score margin | b=0.002; favorable/intermediate/unfavorable margin scenarios | Actual daily margins unavailable; does not establish end-to-end DP | Partially addressed |
+| No independent negative-control outbreak cohort | Explicitly not simulated as empirical; stronger uncertainty analysis selected instead | Avoids fabricated control evidence | Independent seasonal/non-event validation remains future work | Unresolved but no longer required by the chosen either/or reviewer request |
+| Public computational reproducibility | Executable package, fixed config, seed, tests, generated outputs, figures, manifest/checksums, and public GitHub deposition | `run_analysis.sh` regenerates all supplementary outputs; public repository: https://github.com/elbitar24/outbreak-fusion-reproducibility | A persistent DOI is desirable for archival citation but is not required to execute the package | Fully addressed for the reviewer requirement |
